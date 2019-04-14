@@ -2,28 +2,16 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('guildMemberAdd', member => {
-const Mahmoud= member.guild.channels.get("512674548382957573");
+const Mahmoud= member.guild.channels.get("566699958128869417");
 if(!Mahmoud) return;
 if(Mahmoud) {
-setTimeout(() => Mahmoud.send(`**Welcome To __ # - Mal Shop :rose: :heart: __ **`), 4000)        
+setTimeout(() => Mahmoud.send(`**<@${member.user.id}> __ # Welcome To Malicious <#566694004519993355> Prove YourSelf :cloud_lightning: :cloud_lightning: :cloud_lightning:  __ **`), 4000)        
 }
 });
 
-client.on('guildMemberAdd', member => {
-const Mahmoud= member.guild.channels.get("513381450448371712");
-if(!Mahmoud) return;
-if(Mahmoud) {
-setTimeout(() => Mahmoud.send(`**Welcome To __ # - Malicious™ <#519923132128165928> <#519935348823031808> :rose: :fire:  __ **`), 4000)        
-}
-});
 
-client.on('guildMemberAdd', member => {
-const Mahmoud= member.guild.channels.get("516323087978070016");
-if(!Mahmoud) return;
-if(Mahmoud) {
-setTimeout(() => Mahmoud.send(`**Welcome To __ # - Marley STORE :rose: :heart: __ **`), 4000)        
-}
-});
+
+
 
 
 
